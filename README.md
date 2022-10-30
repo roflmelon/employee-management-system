@@ -4,12 +4,15 @@
 
 ## Description
 
-- This app was created to help users create notes for everyday organizations.
-- You can create, delete, and view all of the notes.
+- This app was created to help businesses to manage employees.
+- You can create and view employees, roles, and departments.
+- You can also update/assign employees to new roles.
+
+![Screenshot of app](./Assets/Screenshot_1.jpg)
 
 ## Table of Contents
 
-- [Express Notes](#express-notes)
+- [Employee Management System](#employee-management-system)
   - [Description](#description)
   - [Table of Contents](#table-of-contents)
   - [Installation](#installation)
@@ -22,16 +25,18 @@
 
 ## Installation
 
-- No installation required for viewing only, simply visit live link here: https://express-notes-utor.herokuapp.com/
-- If this application needs to be used to view saved notes, please install to local machine.
-- Download the repository.
-- Run npm install from directory.
+- Download this package from this repository.
+- Install MySQL.
+- Install npm dependencies using 'npm i' in the CLI.
+- Change '.env_sample' file to '.env' and change the enviroment variables to the appropriate logins.
+- Run using 'node index.js' command.
 
 ## Usage
 
-- Create notes by typing on the right hand side.
-- All previous note histories are in the left hand side.
-- Create a note by clicking top right corner's plus sign.
+- Use schema.sql in db folder to create and seed the databases.
+- Run the application.
+- Use arrow keys for selections in menu.
+- Menu will be infinitely looped, just something to be aware of.
 
 ## License
 
